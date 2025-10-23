@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe", // Verifique se este caminho está correto
+            "preLaunchTask": "C/C++: gcc.exe build active file" // <--- ADICIONE ISTO
+        }
+    ]
+}

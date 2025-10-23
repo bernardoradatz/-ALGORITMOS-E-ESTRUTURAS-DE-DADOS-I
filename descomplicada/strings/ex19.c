@@ -9,7 +9,6 @@ int main()
     int indice_menor = 0;
     
     for(int i = 0; i < 10; i++){
-    
         printf("Digite o nome:");
         fgets(nome[i], sizeof(nome[i]), stdin);
         printf("Digite a idade:");
