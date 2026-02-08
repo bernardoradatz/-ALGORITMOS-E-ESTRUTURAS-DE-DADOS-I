@@ -6,7 +6,6 @@
  * struct TreeNode *right;
  * };
  */
-#include <stdbool.h>
 
 bool isUnivalTree(struct TreeNode* root) {
     if (root == NULL) {

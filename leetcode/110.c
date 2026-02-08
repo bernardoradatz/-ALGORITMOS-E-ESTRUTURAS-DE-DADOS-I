@@ -6,8 +6,6 @@
  * struct TreeNode *right;
  * };
  */
-#include <stdbool.h>
-#include <stdlib.h>
 
 int checkHeight(struct TreeNode* root) {
     if (root == NULL) {

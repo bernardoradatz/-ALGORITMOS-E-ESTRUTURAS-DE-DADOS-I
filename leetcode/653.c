@@ -6,8 +6,6 @@
  * struct TreeNode *right;
  * };
  */
-#include <stdbool.h>
-#include <stdlib.h>
 
 void inorderTraversal(struct TreeNode* root, int* arr, int* size) {
     if (root == NULL) {
